@@ -8,4 +8,3 @@ if ($uri === '/' || $uri === '' || $uri === '/index.php' || $uri === '/innout/pu
 }
 
 require_once(CONTROLLER_PATH . "/{$uri}"); 
-// require_once(CONTROLLER_PATH . '/login.php');

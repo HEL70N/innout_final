@@ -3,7 +3,7 @@ require_once(dirname(__FILE__, 2) . '/src/config/config.php');
 
 $uri = urldecode($_SERVER['REQUEST_URI']);
 
-if ($uri === '/' || $uri === '' || $uri === '/index.php') {
+if ($uri === '/' || $uri === '' || $uri === '/index.php' || $uri === '/innout/public/') {
     $uri = '/login.php';
 }
 
